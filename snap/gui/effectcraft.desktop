@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=EffectCraft
+GenericName=Motion Graphics Editor
+Comment=Motion graphics and visual effects compositor
+Exec=effectcraft %F
+Icon=${SNAP}/meta/gui/effectcraft.png
+Terminal=false
+StartupNotify=true
+StartupWMClass=ai.storyteller.effectcraft
+Categories=AudioVideo;Video;Graphics;2DGraphics;
+Keywords=motion;graphics;animation;compositor;effects;keyframe;vfx;
