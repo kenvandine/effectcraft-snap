@@ -16,7 +16,7 @@ effectcraft.cli      # headless CLI / MCP server
 ## Workflows
 
 - **Build and publish** (`build.yml`): builds the snap on amd64 and arm64 for
-  every push and pull request. Pushes to `main` release to `edge`; a manual run
+  every push and pull request. Pushes to `main` release to `candidate`; a manual run
   can pick any channel (leave it empty to only build).
 - **Check upstream release** (`check-upstream.yml`): runs every 6 hours, and when
   a newer upstream release exists it bumps `version` in `snap/snapcraft.yaml`,
