@@ -48,7 +48,7 @@ jobs:
       - uses: snapcore/action-publish@v1
         if: steps.channel.outputs.value != ''
         env:
-          SNAPCRAFT_STORE_CREDENTIALS: ${{ secrets.SNAPCRAFT_STORE_CREDENTIALS }}
+          SNAPCRAFT_STORE_CREDENTIALS: ${{ secrets.STORE_LOGIN }}
         with:
           snap: ${{ steps.build.outputs.snap }}
           release: ${{ steps.channel.outputs.value }}
