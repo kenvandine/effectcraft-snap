@@ -1,7 +1,7 @@
 name: effectcraft
 title: EffectCraft
 base: core24
-version: '0.18.0'
+version: '0.19.0'
 summary: Motion graphics and visual effects compositor
 description: |
   EffectCraft is an open-source, native motion graphics and visual effects compositor with keyframe animation.
