@@ -1,6 +1,6 @@
 name: effectcraft
 title: EffectCraft
-base: core24
+base: core26
 version: '0.24.1'
 summary: Motion graphics and visual effects compositor
 description: |
